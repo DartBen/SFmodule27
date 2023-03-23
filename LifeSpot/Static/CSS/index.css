@@ -66,3 +66,9 @@ header, footer, body, .video-container {
     background-color: linen;
     /*background-color: rgba(0, 0, 255, 0.2);*/
 }
+
+.SearchInput:focus {
+    border: 1px solid; /* Рамка при получении фокуса */
+    background-color: red;
+    color: blue;
+}
